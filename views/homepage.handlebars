@@ -1,0 +1,12 @@
+{{#each Posts as |post|}}
+	<div class="Card">
+		<div class="CardHeader">
+			<h1>{{post.title}}</h1>
+			<p>Posted by {{post.user.username}} on {{post.created_on}}</p>
+		</div>
+		<div class="content">
+			<p>{{post.content}}</p>
+		</div>
+
+	</div>
+{{/each}}

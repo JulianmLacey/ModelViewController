@@ -1,0 +1,35 @@
+<div class="loginForm">
+	<form>
+		<h1>Create a New Project:</h1>
+
+		<div class="content">
+
+			<div class="input-field">
+				<input type="text" placeholder="TITLE" id="title" />
+			</div>
+			<div class="input-field">
+				<input type="text" placeholder="CONTENT" id="content" />
+			</div>
+		</div>
+		<div class="action">
+			<button id="post">Post</button>
+
+		</div>
+
+	</form>
+</div>
+{{#each Posts as |post|}}
+
+	<div class="Card">
+		<div class="CardHeader">
+			<h1>{{post.title}}</h1>
+			<p>Posted on {{post.created_on}}</p>
+		</div>
+		<div class="content">
+			<p>{{post.content}}</p>
+		</div>
+
+	</div>
+{{/each}}
+
+<script src="/js/newPost.js"></script>

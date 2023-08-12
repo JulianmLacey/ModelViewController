@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #041ac2;
+	font-family: "Rubik", sans-serif;
+}
+
+header {
+	background: black;
+	padding: 20px 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	color: #041ac2;
+	text-decoration: none;
+}
+header #title {
+	display: inline;
+	float: left;
+	font-size: 40px;
+	align-self: center;
+	margin-right: 20px;
+	margin-top: 0px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #041ac2;
+}
+header a {
+	display: inline;
+	float: left;
+	align-self: center;
+	font-size: 30px;
+	margin-inline: 10px;
+	margin-top: 7px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #041ac2;
+}
+
+.loginForm {
+	padding-top: 60px;
+	background: #fff;
+	width: 500px;
+	margin: 80px auto;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.loginForm h1 {
+	font-weight: 300;
+}
+.loginForm .content {
+	padding: 35px;
+	text-align: center;
+}
+.loginForm .input-field {
+	padding: 12px 5px;
+}
+.loginForm .input-field input {
+	font-size: 16px;
+	display: block;
+	font-family: "Rubik", sans-serif;
+	width: 100%;
+	padding: 10px 1px;
+	border: 0;
+	border-bottom: 1px solid #747474;
+	outline: none;
+}
+
+.loginForm .input-field input:focus {
+	border-color: #222;
+}
+.loginForm a.link {
+	text-decoration: none;
+	color: #747474;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+}
+.loginForm .action {
+	padding: 40px 0px 0px 5px;
+	display: flex;
+	align-self: end;
+	flex-direction: row;
+}
+.loginForm .action button {
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: "Rubik", sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: #e8e9ec;
+	color: #777;
+	letter-spacing: 0.2px;
+	outline: 0;
+}
+.loginForm .action button:hover {
+	background: #d8d8d8;
+}
+.loginForm .action button:nth-child(2) {
+	background: #2d3b55;
+	color: #fff;
+}
+.loginForm .action button:nth-child(2):hover {
+	background: #3c4d6d;
+}
+
+.Card {
+	background: #fff;
+	width: 900px;
+
+	margin: 80px auto;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	text-align: center;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.Card .CardHeader {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: black;
+	color: white;
+}
+
+.Card h1 {
+	font-weight: 200;
+	display: inline;
+}
+.Card .CardHeader p {
+	font-weight: 100;
+	padding-block: 8px;
+	float: right;
+	display: inline;
+}
+.Card .content {
+	padding: 35px;
+	text-align: left;
+}
